@@ -1,0 +1,21 @@
+{
+  "name": "shopping-list-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "rollup": "^4.24.3"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch",
+    "start": "node server"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0"
+  }
+}
