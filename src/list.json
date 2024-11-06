@@ -1,1 +1,29 @@
-[{"link":"https://www.amazon.com/dp/B0C7BB914F/","dateAdded":"11/2/2024","wantLevel":"7","name":"Fogruaden PBT Keycaps Side Print Keycap Set, Minimalist White Keycaps, Double Shot Shine Through, Cherry Profile, 130 Keys, Custom Keycaps for Cherry Gateron MX Switches Mechanical Keyboard(White)","price":"$26.99","image":"https://m.media-amazon.com/images/I/71Xjb7xlZNL.__AC_SX300_SY300_QL70_ML2_.jpg"},{"link":"https://www.amazon.com/dp/B0B9NNWXVP/","dateAdded":"11/1/2024","wantLevel":"8"},{"link":"https://www.amazon.com/dp/B08Q1NJSBQ/","dateAdded":"10/31/2024","wantLevel":"3"}]
+[
+  {
+    "link": "https://www.amazon.com/dp/B0C7BB914F/",
+    "dateAdded": "11/2/2024",
+    "want": "7/10",
+    "name": "Fogruaden PBT Keycaps Side Print Keycap Set, Minimalist White Keycaps, Double Shot Shine Through, Cherry Profile, 130 Keys, Custom Keycaps for Cherry Gateron MX Switches Mechanical Keyboard(White)",
+    "price": "$26.99",
+    "image": "https://m.media-amazon.com/images/I/71Xjb7xlZNL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "sale": ""
+  },
+  {
+    "link": "https://www.amazon.com/dp/B0B9NNWXVP/",
+    "dateAdded": "11/1/2024",
+    "want": "8/10",
+    "name": "MNN Portable Monitor 15.6inch FHD 1080P USB C HDMI Gaming Ultra-Slim IPS Display w/Smart Cover & Speakers,HDR Plug&Play, External Monitor for Laptop PC Phone Mac",
+    "price": "$79.99",
+    "image": "https://m.media-amazon.com/images/I/81F99hab1GL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "sale": "-11%"
+  },
+  {
+    "link": "https://www.amazon.com/dp/B08Q1NJSBQ/",
+    "dateAdded": "10/31/2024",
+    "want": "3/10",
+    "name": "M-Audio M-Track Solo – USB Audio Interface for Recording, Streaming and Podcasting with XLR, Line and DI Inputs, Plus a Software Suite Included",
+    "price": "$49.00",
+    "image": "https://m.media-amazon.com/images/I/915NdoAXMoL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "sale": "-13%"
+  }
+]

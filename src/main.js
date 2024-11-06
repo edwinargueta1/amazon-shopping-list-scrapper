@@ -1,76 +1,75 @@
 // src/main.js
 
-//Might Delete
-document.getElementById('func').addEventListener('click', () => {
-    getItemFromAmazon('https://www.amazon.com/Logitech-MX-Master-3S-Graphite/dp/B09HM94VDS/');
-});
-//Might Delete
-async function getItemFromAmazon(url) {
-    try {
-        const response = await fetch(`/fetchData?url=${encodeURIComponent(url)}`);
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-        console.log(data); // Do something with the data
-    } catch (error) {
-        console.error('There was a problem with the fetch operation:', error);
-    }
-}
-async function getList(){
+// document.addEventListener('load', ()=>{
+//     displayList
+// })
 
-}
+/**
+ * 
+ * @param {JSON} list Contains information of all the products in list 
+ */
+async function displayList(list){
+  const listContainer = document.getElementById("list");
 
-async function displayList(){
-    console.log('display')
-    try{
-        parseList();
-        
-        console.log(result);
-    }catch(error){
-        console.error(error);
+  try {
+    const response = await fetch("/src/list.json"); // Relative URL to /data
+    if (!response.ok) {
+      throw new Error("Network response was not ok " + response.statusText);
     }
-}
-function parseList(){
-    const listDiv = document.getElementById('list');
-    console.log(list);
-    
-    let data = list.map(async(listItem)=>{
-        let itemData = {};
-        itemData.link = listItem.link;
-        itemData.amazon =  await getItemFromAmazon(listItem.link);
-        return itemData;
-    })
+    const data = await response.json();
+    data.forEach(product => {
+        const htmlProduct = createItem(product);
+        listContainer.appendChild(htmlProduct);
+    });
     console.log(data);
-    return data;
+  } catch (error) {
+    console.error(error);
+  }
 }
 function createItem(item){
-    const wrapper = document.createElement('div');
+    const wrapper = document.createElement('a');
     const name = document.createElement('h3');
     const price = document.createElement('p');
     const image = document.createElement('img');
     const dateAdded = document.createElement('p');
-    const link = document.createElement('a');
     const want = document.createElement('p');
+    const sale = document.createElement('span');
+
+    name.textContent = item.name;
+    price.textContent = item.price;
+    price.classList.add('price');
+    sale.textContent = item.sale;
+    price.appendChild(sale);
     
-    image.src(item.link);
-    link.href(item.link);
+    image.src = item.image;
+
+    dateAdded.textContent = item.dateAdded;
+    dateAdded.classList.add('date');
+
+    want.textContent = item.want
+    want.classList.add('want');
+    
+    wrapper.href = item.link;
+    wrapper.classList.add('item')
 
     const left = document.createElement('div');
+    const middle = document.createElement('div');
     const right = document.createElement('div');
     left.classList.add('left');
+    middle.classList.add('middle');
     right.classList.add('right');
 
     wrapper.appendChild(left);
+    wrapper.appendChild(middle);
     wrapper.appendChild(right);
 
     left.appendChild(image);
-    right.appendChild(name);
-    right.appendChild(price);
-    right.appendChild(dateAdded);
-    right.appendChild(want);
-    right.appendChild(link);
-    
+    middle.appendChild(name);
+    middle.appendChild(dateAdded);
+    middle.appendChild(price);
+    right.appendChild(want);    
     return wrapper;
 }
 console.log('end');
+
+displayList();
