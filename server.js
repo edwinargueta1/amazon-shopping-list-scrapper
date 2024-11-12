@@ -1,8 +1,8 @@
 import http from "http";
 import fs from "fs";
 import path from "path";
-// import cron from "node-cron";
-// import { updateListData } from "../scrapeScript";
+import cron from "node-cron";
+import { updateListData } from "./scrapeScript.js";
 
 const hostname = '0.0.0.0';
 const port = 3005;
@@ -51,6 +51,9 @@ const server = http.createServer(async(req, res) => {
         case '.png':
             contentType = 'image/png';
             break;
+        case '.svg':
+            contentType = 'image/svg+xml'
+            break;
         case '.jpg':
         case '.jpeg':
             contentType = 'image/jpeg';
@@ -74,10 +77,10 @@ const server = http.createServer(async(req, res) => {
     });
 });
 
-// cron.schedule("0 * * * *", ()=>{
-//     console.log("Running updateListData() Every Hour")
-//     updateListData();
-// })
+cron.schedule("0 22 * * *", ()=>{
+    console.log("Running updateListData() Every Hour")
+    updateListData();
+})
 
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);

@@ -13,7 +13,9 @@
     --textDark:rgb(124, 124, 124);
     --hyperLink: rgb(67, 122, 216);
     --shadow: rgb(25, 25, 25);
-    --sale: rgb(188, 33, 33);
+    --sale: rgb(33, 188, 41);
+    --primeBlue: rgb(115, 165, 252);
+    --primeYellow: rgb(255, 160, 26);
 
     font-family: "Inter", Arial, Helvetica, sans-serif;
     background-color: var(--background);
@@ -24,8 +26,11 @@ nav{
     height: 4rem;
     padding: 0.3rem;
     padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 h1{
     font-size: 2.5rem;
@@ -36,7 +41,6 @@ a{
 
 #list{
     width: 100vw;
-    /* border: solid; */
     padding: 3rem 2rem 1rem 3rem;
     box-sizing: border-box;
     display: flex;
@@ -45,7 +49,6 @@ a{
 }
 
 #list .item{
-    /* border: solid 1px; */
     box-sizing: border-box;
     border-radius: 3rem;
     padding: 1rem;
@@ -53,6 +56,7 @@ a{
     display: flex;
     background-color: var(--foreground);
     max-width: 70rem;
+    width: 100%;
     transition: 200ms;
     color: var(--text);
 }
@@ -62,29 +66,27 @@ a{
     transform: translateY(-1rem);
     cursor: pointer;
 }
-/* Add Animation to hold the scale (Keyframes) */
 #list .item:active{ 
-    scale: 30;
+    transition: 100ms;
+    scale: 1;
+    transform: translateY(1rem);
+    box-shadow: none;
 }
 #list .price{
     font-size: 3rem;
     font-weight: 600;
     padding-top: 0.3rem;
+    margin-right: 2rem;
 }
 #list .date{
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--textDark);
 }
-#list .want{
-    font-size: 3rem;
-    font-weight: 700;
-}
 #list img{
     width: 100%;
-}
-#list .item span{
-    color: var(--sale);
+    height: 100%;
+    object-fit: contain;
 }
 #list .item .left{
     width: 12rem;
@@ -97,16 +99,40 @@ a{
     align-items: center;
 }
 #list .item .middle{
-    /* border: solid 1px; */
     margin-right: 1rem;
     padding: 0.5rem;
+    flex-grow: 1;
+}
+#list .item .middle .data{
+    display: flex;
+    padding: 0.1rem;
 }
 #list .item .right{
-    /* border: solid 1px; */
     margin-right: 1rem;
     padding: 0.5rem;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#list .item .right p{
+    font-size: 3rem;
+    font-weight: 700;
+}
+span.prime{
+    animation: prime 5s ease-in-out infinite;
+}
+span.discount{
+    color: var(--sale);
+}
+@keyframes prime{
+    from{
+        color: var(--primeBlue);
+    }
+    50%{
+        color: var(--primeYellow)
+    }
+    to{
+        color: var(--primeBlue);
+    }
 }
