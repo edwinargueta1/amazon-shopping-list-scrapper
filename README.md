@@ -16,7 +16,7 @@ git clone [https://github.com/edwinargueta1/amazon-shopping-list-scrapper]
 
 ## Navigate to the project directory:
 
-cd product-scraper-server
+cd amazon-shopping-list-scrapper
 
 ## Install dependencies:
 
