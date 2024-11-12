@@ -1,5 +1,5 @@
 {
-  "timeUpdated": "Tue, 12 Nov 2024 07:12:47 GMT",
+  "timeUpdated": "Tue, 12 Nov 2024 23:09:46 GMT",
   "products": [
     {
       "link": "https://www.amazon.com/dp/B0C7BB914F/",
@@ -18,14 +18,14 @@
       "link": "https://www.amazon.com/dp/B0B9NNWXVP/",
       "dateAdded": "11/1/2024",
       "want": "8/10",
-      "name": "MNN Portable Monitor 15.6inch FHD 1080P USB C HDMI Gaming Ultra-Slim IPS Display w/Smart Cover & Speakers,HDR Plug&Play, External Monitor for Laptop PC Phone Mac",
-      "price": "$79.99",
+      "name": "MNN Portable Monitor 15.6inch FHD 1080P USB C HDMI Gaming Ultra-Slim IPS Display w/Smart Cover & Speakers,HDR Plug&Play, External Monitor for Laptop PC Phone Mac (15.6'' 1080P)",
+      "price": "$63.99",
       "image": "https://m.media-amazon.com/images/I/81Q9vMNUOyL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "sale": "-11%",
-      "coupon": "$10",
-      "primePrice": "$63.99",
+      "sale": "-29%",
+      "coupon": "6%",
+      "primePrice": "",
       "rating": "4.5",
-      "ratingCount": "7,894 ratings"
+      "ratingCount": "7,896 ratings"
     },
     {
       "link": "https://www.amazon.com/dp/B08Q1NJSBQ/",
@@ -36,7 +36,7 @@
       "sale": "",
       "primePrice": "",
       "rating": "4.4",
-      "ratingCount": "13,049 ratings",
+      "ratingCount": "13,056 ratings",
       "price": "$49.00"
     },
     {
@@ -72,8 +72,8 @@
       "image": "https://m.media-amazon.com/images/I/51GwQMr3UeL._SY430_SX215_QL70_ML2_.jpg",
       "primePrice": "",
       "price": "$69.99",
-      "rating": "3.2",
-      "ratingCount": "90 ratings"
+      "rating": "3.3",
+      "ratingCount": "96 ratings"
     },
     {
       "link": "https://www.amazon.com/POIYTL-50000mAh-Charging-Portable-Capacity/dp/B0BF54MTCG/",
@@ -86,7 +86,7 @@
       "image": "https://m.media-amazon.com/images/I/61lGB1j4eFL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "primePrice": "",
       "rating": "4.4",
-      "ratingCount": "2,413 ratings"
+      "ratingCount": "2,419 ratings"
     },
     {
       "link": "https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4/",
@@ -123,7 +123,7 @@
       "image": "https://m.media-amazon.com/images/I/51o8P8jniOS.__AC_SX300_SY300_QL70_ML2_.jpg",
       "primePrice": "",
       "rating": "4.4",
-      "ratingCount": "2,068 ratings"
+      "ratingCount": "2,070 ratings"
     },
     {
       "link": "https://www.amazon.com/ForHelp-15-6inch-Portable-External-Ultra-Thin/dp/B0BNWWF32B/",
@@ -133,10 +133,9 @@
       "price": "$85.99",
       "sale": "",
       "rating": "4.5",
-      "ratingCount": "4,572 ratings",
+      "ratingCount": "4,573 ratings",
       "image": "https://m.media-amazon.com/images/I/71WdRXWl8fL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "",
-      "coupon": "25%"
+      "primePrice": "$64.99"
     }
   ]
 }
