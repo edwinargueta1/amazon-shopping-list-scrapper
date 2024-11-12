@@ -12,7 +12,7 @@ Features
 
 ## Clone this repository:
 
-git clone https://github.com/yourusername/product-scraper-server.git
+git clone [https://github.com/edwinargueta1/amazon-shopping-list-scrapper]
 
 ## Navigate to the project directory:
 
