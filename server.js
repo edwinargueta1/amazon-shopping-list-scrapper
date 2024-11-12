@@ -8,7 +8,7 @@ const hostname = '0.0.0.0';
 const port = 3005;
 
 const server = http.createServer(async(req, res) => {
-    console.log(req.url, req.method);
+    console.log(req.url, req.method, `Time: ${new Date().toLocaleString()}`);
 
     // Set the default file path to index.html if the root is requested
     let filePath = req.url === '/' ? './index.html' : `.${req.url}`;
@@ -26,14 +26,14 @@ const server = http.createServer(async(req, res) => {
 
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
-            res.end(data); // Send the JSON data as the response
+            res.end(data);
         });
-        return; // Exit the handler since we've already handled the response
+        return;
     }
 
     // Determine the content type based on the file extension
     const ext = path.extname(filePath);
-    let contentType = 'text/html'; // Default to HTML
+    let contentType = 'text/html';
 
     switch (ext) {
         case '.js':
@@ -78,8 +78,8 @@ const server = http.createServer(async(req, res) => {
 });
 
 cron.schedule("0 22 * * *", ()=>{
-    console.log("Running updateListData() Every Hour")
     updateListData();
+    console.log(`Updated Data at: ${new Date().toLocaleString()}`);
 })
 
 server.listen(port, hostname, () => {

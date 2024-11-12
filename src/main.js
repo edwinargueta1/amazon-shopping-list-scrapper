@@ -15,7 +15,6 @@ async function displayList(){
         const htmlProduct = createItem(product);
         listContainer.appendChild(htmlProduct);
     });
-    console.log(data);
   } catch (error) {
     console.error(error);
   }
@@ -111,6 +110,5 @@ function dataDiv(price, sale, prime, coupon){
 
   return wrapper;
 }
-console.log('Compiled Functions');
 
 displayList();
