@@ -4,6 +4,9 @@ import path from "path";
 import cron from "node-cron";
 import { updateListData } from "./scrapeScript.js";
 
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+process.chdir(__dirname);
+
 const hostname = '0.0.0.0';
 const port = 3005;
 
@@ -78,7 +81,7 @@ const server = http.createServer(async(req, res) => {
 });
 
 cron.schedule("0 22 * * *", ()=>{
-    console.log("Running updateListData() Every Hour")
+    console.log("Running updateListData() every 10pm")
     updateListData();
 })
 

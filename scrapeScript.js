@@ -89,4 +89,3 @@ function couponDiscountedPrice(discount, amount){
   }
   return amount - Math.abs(parseInt(discount));
 }
-updateListData();

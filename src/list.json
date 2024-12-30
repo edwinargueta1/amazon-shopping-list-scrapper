@@ -1,31 +1,41 @@
 {
-  "timeUpdated": "Tue, 12 Nov 2024 07:12:47 GMT",
+  "timeUpdated": "Mon, 30 Dec 2024 06:00:28 GMT",
   "products": [
+    {
+      "link": "https://www.amazon.com/PBT-Keycaps-Minimalist-Mechanical-Keyboards/dp/B0BZCDWNDH/",
+      "dateAdded": "11/9/2024",
+      "want": "8/10",
+      "name": "XVX PBT Keycaps - Side Print Keycap Set, Double Shot Shine Through Custom Keycaps, Black Keycaps OEM Profile 136 Keys, Minimalist Style Phantom Keyboard Keycap for Mechanical Keyboards",
+      "price": "$17.99",
+      "sale": "",
+      "image": "https://m.media-amazon.com/images/I/71JLGSIKcOL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "primePrice": "",
+      "rating": "4.3",
+      "ratingCount": "715 ratings"
+    },
     {
       "link": "https://www.amazon.com/dp/B0C7BB914F/",
       "dateAdded": "11/2/2024",
       "want": "6/10",
       "name": "Fogruaden PBT Keycaps Side Print Keycap Set, Minimalist White Keycaps, Double Shot Shine Through, Cherry Profile, 130 Keys, Custom Keycaps for Cherry Gateron MX Switches Mechanical Keyboard(White)",
-      "price": "$26.99",
       "image": "https://m.media-amazon.com/images/I/71Xjb7xlZNL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "sale": "",
-      "coupon": "10%",
       "primePrice": "",
       "rating": "4.2",
-      "ratingCount": "29 ratings"
+      "ratingCount": "30 ratings",
+      "price": "$16.99"
     },
     {
-      "link": "https://www.amazon.com/dp/B0B9NNWXVP/",
-      "dateAdded": "11/1/2024",
-      "want": "8/10",
-      "name": "MNN Portable Monitor 15.6inch FHD 1080P USB C HDMI Gaming Ultra-Slim IPS Display w/Smart Cover & Speakers,HDR Plug&Play, External Monitor for Laptop PC Phone Mac",
-      "price": "$79.99",
-      "image": "https://m.media-amazon.com/images/I/81Q9vMNUOyL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "sale": "-11%",
-      "coupon": "$10",
-      "primePrice": "$63.99",
+      "link": "https://www.amazon.com/LTC-Switches-Mechanical-Keyboard-Compatible/dp/B099F7L6SG/",
+      "want": "5/10",
+      "dateAdded": "11/25/24",
+      "name": "LTC Panda Switches for Mechanical Keyboard DIY, Holy Panda Switch Feeling, 3pin RGB/SMD Tactile MX Compatible Switches with Switch Puller(35pcs)",
+      "sale": "",
       "rating": "4.5",
-      "ratingCount": "7,894 ratings"
+      "ratingCount": "221 ratings",
+      "image": "https://m.media-amazon.com/images/I/31bVCqlqgHL._SY445_SX342_QL70_ML2_.jpg",
+      "primePrice": "",
+      "price": "$9.99"
     },
     {
       "link": "https://www.amazon.com/dp/B08Q1NJSBQ/",
@@ -36,32 +46,8 @@
       "sale": "",
       "primePrice": "",
       "rating": "4.4",
-      "ratingCount": "13,049 ratings",
+      "ratingCount": "13,282 ratings",
       "price": "$49.00"
-    },
-    {
-      "link": "https://www.amazon.com/Foldable-Bluetooth-Artciety-Rechargeable-Smartphone/dp/B0BK4PL17R/",
-      "dateAdded": "11/8/2024",
-      "want": "6/10",
-      "name": "Foldable Bluetooth Keyboard, Folding Portable Wireless Keyboard with touchpad,Travel Pocket Keyboard for iOS Android Windows Mac Smartphone Tablet & Laptop, Sync Up to 3 Devices, Black",
-      "sale": "",
-      "image": "https://m.media-amazon.com/images/I/71g6pNRK5HL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "$30.96",
-      "price": "$34.96",
-      "rating": "4.3",
-      "ratingCount": "546 ratings"
-    },
-    {
-      "link": "https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4/",
-      "dateAdded": "11/8/2024",
-      "want": "7/10",
-      "name": "Raspberry Pi Zero W Basic Starter Kit- Black Case Edition-Includes Pi Zero W -Power Supply & Premium Black Case",
-      "price": "$34.99",
-      "sale": "-30%",
-      "image": "https://m.media-amazon.com/images/I/91VrInDBG3L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "",
-      "rating": "4.5",
-      "ratingCount": "3,980 ratings"
     },
     {
       "link": "https://www.amazon.com/Test-1-SW-Xbox-One/dp/B09Z7HJPWL/",
@@ -71,9 +57,21 @@
       "sale": "",
       "image": "https://m.media-amazon.com/images/I/51GwQMr3UeL._SY430_SX215_QL70_ML2_.jpg",
       "primePrice": "",
-      "price": "$69.99",
-      "rating": "3.2",
-      "ratingCount": "90 ratings"
+      "rating": "4.2",
+      "ratingCount": "365 ratings",
+      "price": "$69.99"
+    },
+    {
+      "link": "https://www.amazon.com/Black-Myth-Wukong-PlayStation-5/dp/B0DKFX8THB/",
+      "want": "5/10",
+      "dateAdded": "11/25/24",
+      "name": "Black Myth: Wukong - PlayStation 5",
+      "sale": "",
+      "rating": "4.6",
+      "ratingCount": "72 ratings",
+      "image": "https://m.media-amazon.com/images/I/51YzZ+l72JL._SX342_SY445_.jpg",
+      "primePrice": "",
+      "price": "$64.99"
     },
     {
       "link": "https://www.amazon.com/POIYTL-50000mAh-Charging-Portable-Capacity/dp/B0BF54MTCG/",
@@ -82,61 +80,35 @@
       "name": "Power Bank 50000mAh 22.5W Fast Charging Portable Charger USB-C Quick Charge with 3 Outputs & 2 Inputs LED Display Huge Capacity External Battery Pack for Most Electronic Devices on The Market",
       "price": "$39.98",
       "sale": "-17%",
-      "coupon": "40%",
+      "coupon": "35%",
       "image": "https://m.media-amazon.com/images/I/61lGB1j4eFL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "primePrice": "",
-      "rating": "4.4",
-      "ratingCount": "2,413 ratings"
+      "rating": "4.3",
+      "ratingCount": "2,699 ratings"
     },
     {
-      "link": "https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4/",
-      "dateAdded": "11/8/2024",
+      "link": "https://www.amazon.com/TP-LINK-UH720-7-Port-Smart-Charging/dp/B00SCX6I8A/",
       "want": "7/10",
-      "name": "Raspberry Pi Zero W Basic Starter Kit- Black Case Edition-Includes Pi Zero W -Power Supply & Premium Black Case",
-      "price": "$34.99",
-      "sale": "-30%",
-      "image": "https://m.media-amazon.com/images/I/91VrInDBG3L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "",
+      "dateAdded": "11/25/24",
+      "name": "TP-Link Powered USB Hub 3.0 with 7 USB 3.0 Data Ports and 2 Smart Charging USB Ports. Compatible with Windows, Mac, Chrome & Linux OS, with Power On/Off Button, 12V/4A Power Adapter(UH720)",
+      "sale": "-23%",
       "rating": "4.5",
-      "ratingCount": "3,980 ratings"
+      "ratingCount": "4,269 ratings",
+      "image": "https://m.media-amazon.com/images/I/61T8OxVwOKL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "primePrice": "",
+      "price": "$26.99"
     },
     {
-      "link": "https://www.amazon.com/PBT-Keycaps-Minimalist-Mechanical-Keyboards/dp/B0BZCDWNDH/",
-      "dateAdded": "11/9/2024",
-      "want": "8/10",
-      "name": "XVX PBT Keycaps - Side Print Keycap Set, Double Shot Shine Through Custom Keycaps, Black Keycaps OEM Profile 136 Keys, Minimalist Style Phantom Keyboard Keycap for Mechanical Keyboards",
-      "price": "$16.99",
-      "sale": "-15%",
-      "image": "https://m.media-amazon.com/images/I/71JLGSIKcOL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "",
-      "rating": "4.4",
-      "ratingCount": "668 ratings"
-    },
-    {
-      "link": "https://www.amazon.com/Redragon-P035-Computer-Ergonomic-Anti-Slip/dp/B095WCCBM3/",
-      "dateAdded": "11/9/2024",
-      "want": "6/10",
-      "name": "Redragon P036 Meteor M Computer Keyboard Wrist Rest Pad, Ergonomic Soft Memory Foam Wrist Support w/Anti-Slip Rubber Base, 80% 87 Keys TKL Size 14.13 x 2.87 in, 0.78 inch (20mm) Height, Black",
-      "price": "$13.99",
-      "sale": "",
-      "coupon": "10%",
-      "image": "https://m.media-amazon.com/images/I/51o8P8jniOS.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "",
-      "rating": "4.4",
-      "ratingCount": "2,068 ratings"
-    },
-    {
-      "link": "https://www.amazon.com/ForHelp-15-6inch-Portable-External-Ultra-Thin/dp/B0BNWWF32B/",
-      "dateAdded": "11/11/2024",
-      "want": "8/10",
-      "name": "15.6inch Portable Monitor,1080P USB-C HDMI Second External Monitor for Laptop,PC,Mac Phone,PS,Xbox,Swich,IPS Ultra-Thin Zero Frame Gaming Monitor/Premium Smart Cover",
-      "price": "$85.99",
-      "sale": "",
-      "rating": "4.5",
-      "ratingCount": "4,572 ratings",
-      "image": "https://m.media-amazon.com/images/I/71WdRXWl8fL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "primePrice": "",
-      "coupon": "25%"
+      "link": "https://www.amazon.com/Power-Strip-Surge-Protector-Extension/dp/B0B1DKN9HG/",
+      "want": "7/10",
+      "dateAdded": "11/25/24",
+      "name": "Power Strip Surge Protector - 6 Widely Outlets with 3 USB Ports (1 USB C), 3-Side Outlet Extender Strip, 5 Ft Extension Cord Flat Plug, Wall Mount Small Power Strip for Travel Home Office College Dorm",
+      "price": "$11.99",
+      "sale": "-8%",
+      "rating": "4.8",
+      "ratingCount": "7,077 ratings",
+      "image": "https://m.media-amazon.com/images/I/61eWr5cZGPL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "primePrice": "$9.99"
     }
   ]
 }
